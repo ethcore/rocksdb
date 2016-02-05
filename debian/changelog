@@ -1,0 +1,5 @@
+librocksdb (4.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Gav <gav@unknown>  Fri, 05 Feb 2016 17:13:34 +0100
