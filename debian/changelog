@@ -1,0 +1,11 @@
+librocksdb (4.2-1ubuntu1) wily; urgency=medium
+
+  * Fix previous unstable -> wily.
+
+ -- Gavin Wood (Ethcore) <gavin@ethcore.io>  Fri, 05 Feb 2016 22:49:13 +0100
+
+librocksdb (4.2-1) wily; urgency=low
+
+  * Initial release.
+
+ -- Gavin Wood (Ethcore) <gavin@ethcore.io>  Fri, 05 Feb 2016 17:13:34 +0100

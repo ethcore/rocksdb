@@ -1,0 +1,19 @@
+Source: librocksdb
+Section: libdevel
+Priority: extra
+Maintainer: Ethcore Limited <admin@ethcore.io>
+Uploaders: Ethcore Limited <admin@ethcore.io>
+Build-Depends: debhelper, make, gcc, libbz2-dev, libsnappy-dev, zlib1g-dev, libgflags-dev
+Standards-Version: 3.9.2
+Vcs-Git: git://github.com/facebook/rocksdb.git
+
+Package: librocksdb-dev
+Architecture: any
+Depends: librocksdb (= ${binary:Version}), libbz2-dev, libsnappy-dev, zlib1g-dev, libgflags-dev
+Description: This package contains a RocksDB static & shared library and headers
+
+Package: librocksdb
+Architecture: any
+Depends: ${misc:Depends}, libbz2, libsnappy, zlib1g, libgflags
+Description: This package contains a RocksDB static & shared library and headers
+
