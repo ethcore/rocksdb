@@ -1,19 +1,33 @@
-Source: librocksdb
-Section: libdevel
+Source: rocksdb
+Section: libs
 Priority: extra
 Maintainer: Ethcore Limited <admin@ethcore.io>
-Uploaders: Ethcore Limited <admin@ethcore.io>
-Build-Depends: debhelper, make, gcc, libbz2-dev, libsnappy-dev, zlib1g-dev, libgflags-dev
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>> 9), make, gcc, libbz2-dev, libsnappy-dev, zlib1g-dev, libgflags-dev
+Standards-Version: 3.9.5
 Vcs-Git: git://github.com/facebook/rocksdb.git
+Homepage: http://rocksdb.org
 
 Package: librocksdb-dev
 Architecture: any
 Depends: librocksdb (= ${binary:Version}), libbz2-dev, libsnappy-dev, zlib1g-dev, libgflags-dev
-Description: This package contains a RocksDB static & shared library and headers
+Section: libdevel
+Description: RocksDB development files
+  RocksDB is an embeddable persistent key-value store for fast storage. It
+  builds on LevelDB to be scalable to run on servers with many CPU cores, to
+  efficiently use fast storage, to support IO-bound, in-memory and write-once
+  workloads, and to be flexible to allow for innovation.
+  .
+  This package contains include files and the static library shared by RocksDB-based libraries.
 
 Package: librocksdb
 Architecture: any
 Depends: ${misc:Depends}, libbz2-1.0, libsnappy1v5, zlib1g, libgflags2v5
-Description: This package contains a RocksDB static & shared library and headers
+Section: libs
+Description: RocksDB shared library
+  RocksDB is an embeddable persistent key-value store for fast storage. It
+  builds on LevelDB to be scalable to run on servers with many CPU cores, to
+  efficiently use fast storage, to support IO-bound, in-memory and write-once
+  workloads, and to be flexible to allow for innovation.
+  .
+  This package contains the RocksDB shared library.
 
