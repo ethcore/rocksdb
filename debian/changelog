@@ -1,4 +1,4 @@
-librocksdb (4.2-1ubuntu2) wily; urgency=medium
+rocksdb (4.2-1ubuntu2) wily; urgency=medium
 
   * Fix depend packages.
 
