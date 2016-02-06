@@ -21,7 +21,7 @@ Description: RocksDB development files
 
 Package: librocksdb
 Architecture: any
-Depends: ${misc:Depends}, libbz2-1.0, libsnappy1v5, zlib1g, libgflags2v5
+Depends: ${misc:Depends}, libbz2-1.0, libsnappy1, zlib1g, libgflags2
 Section: libs
 Description: RocksDB shared library
   RocksDB is an embeddable persistent key-value store for fast storage. It
