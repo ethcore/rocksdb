@@ -1,4 +1,10 @@
-rocksdb (4.2-1ubuntu2~trusty) trusty; urgency=medium
+rocksdb (4.2-1ubuntu3~trusty) trusty; urgency=medium
+
+  * Fix installation. 
+
+ -- Gavin Wood (Ethcore) <gavin@ethcore.io>  Sat, 06 Feb 2016 13:08:49 +0100
+
+rocksdb (4.2-1ubuntu2) wily; urgency=medium
 
   * Fix depend packages.
 
