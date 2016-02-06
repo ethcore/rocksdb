@@ -1,4 +1,4 @@
-librocksdb (4.2-1ubuntu1) wily; urgency=medium
+librocksdb (4.2-1ubuntu1~trusty) trusty; urgency=medium
 
   * Fix previous unstable -> wily.
 
