@@ -1,10 +1,10 @@
-librocksdb (4.2-1ubuntu2) wily; urgency=medium
+librocksdb (4.2-1ubuntu2) trusty; urgency=medium
 
   * Fix depend packages.
 
  -- Gavin Wood (Ethcore) <gavin@ethcore.io>  Sat, 06 Feb 2016 11:43:11 +0100
 
-librocksdb (4.2-1ubuntu1) wily; urgency=medium
+librocksdb (4.2-1ubuntu1~trusty) trusty; urgency=medium
 
   * Fix previous unstable -> wily.
 
