@@ -1,4 +1,4 @@
-rocksdb (4.2-1ubuntu2) trusty; urgency=medium
+rocksdb (4.2-1ubuntu2~trusty) trusty; urgency=medium
 
   * Fix depend packages.
 
