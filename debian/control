@@ -14,6 +14,6 @@ Description: This package contains a RocksDB static & shared library and headers
 
 Package: librocksdb
 Architecture: any
-Depends: ${misc:Depends}, libbz2-1.0, libsnappy1v5, zlib1g, libgflags2v5
+Depends: ${misc:Depends}, libbz2-1.0, libsnappy1, zlib1g, libgflags2
 Description: This package contains a RocksDB static & shared library and headers
 
